@@ -211,23 +211,27 @@ This single command re-runs the full pipeline and regenerates all artifacts dete
 
 ## 🖼️ Application Interface & Demo Screenshots
 
-Below are screenshots captured directly from the live Streamlit diagnostic system:
+Below are screenshots captured directly from the live redesigned diagnostic workstation:
 
-### 1. Interactive Diagnostic Inference (Tab 1)
-![Inference Dashboard](reports/figures/screenshots/app_inference.png)
-*Test sample selector with patient cohort filtering and raw morphological feature inspection.*
+### 1. Clinical Diagnostic Workstation (Tab 1)
+![Diagnostic Workstation](reports/figures/screenshots/app_inference.png)
+*Precision case evaluator with cohort filtering, actual ground-truth concordance, and malignant risk verdict.*
 
-### 2. Live Prediction Result & Decision Confidence
-![Prediction Result](reports/figures/screenshots/app_inference_result.png)
-*High-confidence malignant diagnosis with probability gauges and clinical recommendations.*
+### 2. Interactive Morphological Biomarker Simulator
+![Biomarker Simulator](reports/figures/screenshots/app_simulator.png)
+*Real-time nuclear contour parameter sliders (radius, perimeter, concavity) with instantaneous decision boundary updates.*
 
-### 3. Model Performance & Evaluation Dashboard (Tab 2)
+### 3. Model Benchmark Verification & Analytics (Tab 2)
 ![Metrics Dashboard](reports/figures/screenshots/app_metrics.png)
-*KPI summary cards, test set Confusion Matrix (41/42 malignant detected), and ROC curve (AUC = 0.9954).*
+*Linear-style KPI stat tiles, Confusion Matrix (41/42 malignant tumors detected), and ROC curve (AUC = 0.9954).*
 
-### 4. Exploratory Data Analysis & Feature Correlations (Tab 3)
+### 4. Exploratory Data Analysis & Feature Distributions (Tab 3)
 ![EDA Dashboard](reports/figures/screenshots/app_eda.png)
-*Target class proportions, Pearson correlation matrix, and mean feature boxplots.*
+*Wisconsin Diagnostic dataset class balance, Pearson correlation matrix, and morphological boxplots.*
+
+### 5. Engineering Architecture & Protocol (Tab 4)
+![Architecture Documentation](reports/figures/screenshots/app_architecture.png)
+*Production documentation detailing leakage-free pipeline design and mathematical objectives.*
 
 ---
 
