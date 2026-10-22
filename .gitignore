@@ -39,3 +39,6 @@ desktop.ini
 artifacts/*.joblib
 artifacts/*.pkl
 !artifacts/.gitkeep
+
+# IDE and tool design files
+design-md/
