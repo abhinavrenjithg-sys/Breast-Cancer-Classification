@@ -209,22 +209,25 @@ This single command re-runs the full pipeline and regenerates all artifacts dete
 
 ---
 
-## 🖼️ Example Screenshots & Interface
+## 🖼️ Application Interface & Demo Screenshots
 
-To add screenshots of the Streamlit interface to your repository:
-1. Run `streamlit run app.py` and capture images of the tabs.
-2. Save screenshots into `reports/figures/screenshots/`.
-3. Reference them in markdown as shown below:
+Below are screenshots captured directly from the live Streamlit diagnostic system:
 
-```markdown
-### Web Application Interface
+### 1. Interactive Diagnostic Inference (Tab 1)
 ![Inference Dashboard](reports/figures/screenshots/app_inference.png)
-*Interactive test sample selector, live prediction confidence bars, and clinical explanation.*
+*Test sample selector with patient cohort filtering and raw morphological feature inspection.*
 
-### Evaluation & Visualizations
+### 2. Live Prediction Result & Decision Confidence
+![Prediction Result](reports/figures/screenshots/app_inference_result.png)
+*High-confidence malignant diagnosis with probability gauges and clinical recommendations.*
+
+### 3. Model Performance & Evaluation Dashboard (Tab 2)
 ![Metrics Dashboard](reports/figures/screenshots/app_metrics.png)
-*Confusion matrix, ROC curve, and classification report breakdown.*
-```
+*KPI summary cards, test set Confusion Matrix (41/42 malignant detected), and ROC curve (AUC = 0.9954).*
+
+### 4. Exploratory Data Analysis & Feature Correlations (Tab 3)
+![EDA Dashboard](reports/figures/screenshots/app_eda.png)
+*Target class proportions, Pearson correlation matrix, and mean feature boxplots.*
 
 ---
 
